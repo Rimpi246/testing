@@ -1,0 +1,79 @@
+body {
+    background: #0D1025;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.main-row {
+    /* padding-right: 5em; */
+    width: 100%;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    /* padding: 1em; */
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+    height: 15em;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    margin: 2.5em;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 43px rgba(0, 0, 0, 0.77);
+    border-radius: 10px;
+    transition: ease-in smooth .5s;
+    width: 500em;
+}
+
+.card:hover .btn{
+    background: #fff;
+    color: #EC008B;
+}
+.card:hover{
+    background: #EC008B;
+    color: #FFFFFF;
+}
+.btn {
+    background: #EC008B;
+    border-radius: 10px;
+    width: 8em;
+    border: none;
+}
+.btn-primary:active
+{
+    background: #0B132A !important; /* add here any color */
+    color: #FFFFFF!important;
+}
+.btn-primary:focus{
+    background:  #0B132A!important; /* add here any color */
+    color: #fff!important;
+}
+.modal{
+    color: #000!important;
+}
+.github-btn, .domain-btn{
+    background: #FFFFFF;
+    color: #EC008B;
+}
+.github-btn{
+    width: 10rem;
+}
+.modal-dialog{
+    max-width: 1000px;
+}
+.milestones-col{
+    border-right: 1px solid #0B132A;
+    border-left: 1px solid #0B132A;
+}

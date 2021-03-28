@@ -1,0 +1,142 @@
+body {
+    background-color: #0B132A;
+}
+
+.our-team {
+    overflow: hidden;
+    text-align: center;
+    background-color: #121E42;
+    border-radius: 10px;
+}
+
+.our-team .pic {
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .over-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF7527;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.30s ease 0s;
+}
+
+.linkedin-icon {
+    border-radius: 5px;
+}
+
+.our-team:hover .over-layer {
+    opacity: 1;
+}
+
+.our-team:hover {
+    border: 1px solid #FF7527;
+}
+
+.our-team:hover .post-title {
+    color: #FF7527;
+}
+
+.our-team .social-link {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 65%;
+    left: 0;
+    list-style: none;
+    transition: all 0.50s ease 0s;
+}
+
+.our-team:hover .social-link {
+    top: 45%;
+}
+
+.our-team .social-link li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.our-team .social-link li a {
+    width: 50px;
+    height: 50px;
+    color: #93628f;
+    background: #fff;
+    font-size: 22px;
+    line-height: 50px;
+    /* border-radius:50%; */
+    padding: .3rem;
+    text-align: center;
+    transform: translateY(0px);
+    transition: all 0.40s linear 0s;
+}
+
+.our-team .social-link li a:hover {
+    transform: translateY(-13px);
+    text-decoration: none;
+}
+
+.our-team .social-link li a.fa-facebook:hover {
+    color: #5d82d1;
+}
+
+.our-team .social-link li a.fa-google:hover {
+    color: #eb5e4c;
+}
+
+.our-team .social-link li a.fa-twitter:hover {
+    color: #40bff5;
+}
+
+.our-team .team-content {
+    padding: 12px 25px;
+}
+
+.our-team .post-title {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.our-team .post-title:after {
+    content: "";
+    border-bottom: 2px solid #fff;
+    width: 15%;
+    display: block;
+    margin: 15px auto;
+}
+
+.our-team .post-title small {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.heading::after {
+    content: "";
+    border-bottom: 2px solid #FF7527;
+    width: 10%;
+    display: block;
+    margin: 15px auto;
+}
+.our-team .pic img{
+    object-fit: cover; 
+    object-position: center;
+    width: 230px;
+    height: 250px;
+}
