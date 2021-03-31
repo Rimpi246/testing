@@ -1,7 +1,7 @@
 body {
     width: 100%;
     font-family: 'Rubik', sans-serif;
-    background: #ffffff;
+    /* background: #ffffff; */
 }
 .footers{
     background: #F8F8F8;
@@ -63,4 +63,11 @@ body {
 }
 .sponsor-box{
     bottom: -5rem;
+}
+
+@media (max-width: 768px){
+    .sponsor-btn{
+        width: max-content;
+        height: max-content;
+    }
 }

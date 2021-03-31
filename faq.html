@@ -12,11 +12,64 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/faq.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 
-    <div class="container py-3">
+    <button type="button" class="mobile-nav-toggle text-light mt-3 d-lg-none"><i
+            class="icofont-navigation-menu fas fa-bars"></i></button>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+
+            <!-- <h1 class="logo mr-auto"><a href="index.html">Arsha</a></h1> -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="index.html" class="logo mr-auto"><img src="assets/logowhite.png" alt="uplift_logo.png"
+                    class="img-fluid"></a>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active pl-5"><a href="index.html">Home</a></li>
+                    <li class="pl-5"><a href="about.html">About</a></li>
+                    <li class="pl-5"><a href="#services">Register</a></li>
+                    <li class="pl-5"><a href="projects.html">Projects</a></li>
+                    <li class="pl-5"><a href="faq.html">FAQs</a></li>
+                    <li class="pl-5"><a href="team.html">Team</a></li>
+                    <li class="pl-5"><a href="contact.html">Contact</a></li>
+                    <li class="drop-down pl-5"><a href="">More<i class="ml-1 fa fa-caret-down"
+                                aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="Project-Archieves.html">Project Archieves</a></li>
+                            <!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="pl-5 project-archieve"><a class="ml-3" href="Project-Archieves.html">Project Archieves</a></li>
+
+                </ul>
+            </nav><!-- .nav-menu -->
+
+            <!-- <a href="#about" class="get-started-btn scrollto">Get Started</a> -->
+
+        </div>
+    </header><!-- End Header -->
+
+
+    <div class="container mt-5 py-3">
+        <div class="title h1 text-center mt-5 p-5"><span class="gradient-text">FREQUENTLY ASKED<img class="pb-3 mb-5 img-fluid"
+            src="assets/Bird vectors/Group 1310 (2).png" alt="bird"></span></div>
         <div class="row font-weight-bold">
             <div class="col-10 mx-auto">
                 <div class="accordion" id="faqExample">
@@ -80,13 +133,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>Who all are eligible to participate?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqExample">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>Anybody who is willing to learn new skills and willing to mentor the participants
                                     are eligible to participate.</h4>
@@ -98,13 +150,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>Is there any application/registration fee?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqExample">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>No, It is free for all.</h4>
                             </div>
@@ -115,13 +166,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>Is there any age limit for participation?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqExample">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>No, there is no age limit. Anybody can apply for this program before the deadlines.
                                 </h4>
@@ -133,12 +183,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>Is this only for technical domain people?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>This program is for both technical and non-technical areas.</h4>
@@ -150,12 +200,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>What are the prizes and perks for winning?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>Certificates will be provided to your registered mail ID.</h4>
@@ -168,13 +218,12 @@
                                 <i class="far fa-question-circle pr-2"></i>What minimum conditions should the project
                                 satisfy?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqExample">
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>This will be decided by your Mentor/Team Leader/Moderator based on their knowledge.
                                 </h4>
@@ -186,13 +235,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>When will the results publish?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                            data-parent="#faqExample">
+                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>Results will be published on 10th August.</h4>
                             </div>
@@ -203,12 +251,12 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>Is this program only for girls?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>Both boys and girls are eligible for this program.</h4>
@@ -221,12 +269,12 @@
                                 <i class="far fa-question-circle pr-2"></i>As a beginner, from where do we start to
                                 contribute in the projects?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>Knowing and assuming you as a beginner, the mentor will help you throughout the
@@ -239,12 +287,13 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>How will I know about my selection?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseThirteen" aria-expanded="false"
+                                    aria-controls="collapseThirteen">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>You will get mail from us, If you get selected.</h4>
@@ -257,12 +306,13 @@
                                 <i class="far fa-question-circle pr-2"></i>How will I and my team communicate with my
                                 mentors?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseFourteen" aria-expanded="false"
+                                    aria-controls="collapseFourteen">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>You can communicate through discord channels and can clear your doubts by messaging,
@@ -275,12 +325,13 @@
                             <h4 class="mb-0">
                                 <i class="far fa-question-circle pr-2"></i>How long will this program be active?
                                 <button class="btn btn-link collapsed float-right" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-target="#collapseFifteen" aria-expanded="false"
+                                    aria-controls="collapseFifteen">
                                     <i class="fas fa-angle-down fa-2x"></i>
                                 </button>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen"
                             data-parent="#faqExample">
                             <div class="card-body p-5 pb-5 text-primary">
                                 <h4>The program will start on 1st May and ends on 31st July. All the best.</h4>
@@ -296,32 +347,332 @@
     </div>
     <!--container-->
 
-    <div class="container-fluid bg-white text-dark p-5 mb-5 mt-5">
+    <div class="container-fluid bg-white text-dark p-5 mt-5">
         <div class="text-center d-flex justify-content-center">
             <h1 class="font-weight-bold">
                 Still not able to solve<br><strong>your</strong> query?
             </h1>
         </div>
-        
+
         <div class="row d-flex text-center justify-content-center">
             <div class="col-lg-6 col-sm-12">
                 <div class="text-center">
-                    <a href="#" type="button" class="contact-us text-white btn btn-warning p-3 mb-4 mt-5"><h5 class="font-weight-bold">Contact Us</h5></a>
-                    <h5 class="font-weight-bold">You can get in touch with our Marketing <br>Team right away. </h5 class="font-weight-bold">
+                    <a href="#" type="button" class="contact-us text-white btn btn-warning p-3 mb-4 mt-5">
+                        <h5 class="font-weight-bold">Contact Us</h5>
+                    </a>
+                    <h5 class="font-weight-bold">You can get in touch with our Marketing <br>Team right away. </h5
+                        class="font-weight-bold">
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <div class="text-center">
-                    <a href="#" type="button" class="submit-ques btn btn-dark p-3 mb-4 mt-5"><h5 class="font-weight-bold">Submit Question</h5></a>
-                    <h5 class="font-weight-bold">You can submit your question, we’ll reach out <br>to you really soon!</h5 class="font-weight-bold">
+                    <a href="#" type="button" class="submit-ques btn btn-dark p-3 mb-4 mt-5">
+                        <h5 class="font-weight-bold">Submit Question</h5>
+                    </a>
+                    <h5 class="font-weight-bold">You can submit your question, we’ll reach out <br>to you really soon!
+                    </h5 class="font-weight-bold">
                 </div>
             </div>
         </div>
     </div>
 
+    <section class="bg-light sponsor-box position-relative">
+        <div class="container bg-white p-5 mb-5">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="align-center mb-3">Become a Sponsor today!</h1>
+                    <p>Sponsors make it possible for The Uplift Project to provide the perks for participants. Sponsors
+                        receive a great deal of publicity and exposure as a result of the program.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-right align-center">
+                    <a href="#" type="button" class="btn btn-dark text-white m-4 btn-lg sponsor-btn">
+                        <h2>Sponsor us</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footers bg-light pt-5 pb-3">
+        <div class="container mt-4 pt-5">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+                    <div class="footers-logo">
+                        <img src="assets/logo.png" alt="Logo" style="width:120px;">
+                    </div>
+                    <div class="footers-info mt-3">
+                        <p>The Uplift is a global project managed and founded by The GirlScript Foundation.</p>
+                    </div>
+                    <div class="social-icons mt-5 mb-5">
+                        <a class="social-icon mr-4 p-2 pl-3" href="https://www.facebook.com/"><i id="social-fb"
+                                class="fab fa-facebook-f "></i></a>
+                        <a class="social-icon mr-4 p-2" href="https://twitter.com/"><i id="social-tw"
+                                class="fab fa-twitter "></i></a>
+                        <a class="social-icon mr-4 p-2" href="https://plus.google.com/"><i id="social-gp"
+                                class="fab fa-instagram "></i></a>
+                        <a class="social-icon mr-4 p-2" href="mailto:bootsnipp@gmail.com"><i id="social-em"
+                                class="fab fa-linkedin-in "></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-two">
+                    <h5 class="footer-link-title">Engage </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="maintenance.html">The Uplift</a></li>
+                        <li><a href="contact.html">FAQs</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="about.html">Projects</a></li>
+                        <!-- <li><a href="about.html">Post Requirements</a></li> -->
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-three">
+                    <h5>&nbsp; </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="maintenance.html">Archieves</a></li>
+                        <li><a href="contact.html">Team</a></li>
+                        <li><a href="about.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-four">
+                    <h5 class="footer-link-title">Sister Platforms </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="maintenance.html">GirlScript Summer of Code 2021</a></li>
+                        <li><a href="contact.html">Education Outreach Program </a></li>
+                        <li><a href="about.html">YAY! Celebrating Education </a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 footers-five">
+                    <h5 class="footer-link-title">Register As </h5>
+                    <ul class="list-unstyled">
+                        <li><a href="maintenance.html">Participant</a></li>
+                        <li><a href="about.html">Mentor</a></li>
+                        <li><a href="about.html">Campus Ambassador</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row text-left">
+                <div class="col-md-12 pt-3">
+                    <p class="text-muted">©2021 The Uplift Project</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Navbar script important -->
+    <script>
+        !(function ($) {
+            "use strict";
+
+            // Preloader
+            $(window).on('load', function () {
+                if ($('#preloader').length) {
+                    $('#preloader').delay(100).fadeOut('slow', function () {
+                        $(this).remove();
+                    });
+                }
+            });
+
+            // Smooth scroll for the navigation menu and links with .scrollto classes
+            var scrolltoOffset = $('#header').outerHeight() - 2;
+            $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function (e) {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    if (target.length) {
+                        e.preventDefault();
+
+                        var scrollto = target.offset().top - scrolltoOffset;
+                        if ($(this).attr("href") == '#header') {
+                            scrollto = 0;
+                        }
+
+                        $('html, body').animate({
+                            scrollTop: scrollto
+                        }, 1500, 'easeInOutExpo');
+
+                        if ($(this).parents('.nav-menu, .mobile-nav').length) {
+                            $('.nav-menu .active, .mobile-nav .active').removeClass('active');
+                            $(this).closest('li').addClass('active');
+                        }
+
+                        if ($('body').hasClass('mobile-nav-active')) {
+                            $('body').removeClass('mobile-nav-active');
+                            $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+                            $('.mobile-nav-overly').fadeOut();
+                        }
+                        return false;
+                    }
+                }
+            });
+
+            // Activate smooth scroll on page load with hash links
+            $(document).ready(function () {
+                if (window.location.hash) {
+                    var initial_nav = window.location.hash;
+                    if ($(initial_nav).length) {
+                        var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+                        $('html, body').animate({
+                            scrollTop: scrollto
+                        }, 1500, 'easeInOutExpo');
+                    }
+                }
+            });
+
+            // Mobile Navigation
+            if ($('.nav-menu').length) {
+                var $mobile_nav = $('.nav-menu').clone().prop({
+                    class: 'mobile-nav d-lg-none'
+                });
+                $('body').append($mobile_nav);
+                $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
+                $('body').append('<div class="mobile-nav-overly"></div>');
+
+                $(document).on('click', '.mobile-nav-toggle', function (e) {
+                    $('body').toggleClass('mobile-nav-active');
+                    $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+                    $('.mobile-nav-overly').toggle();
+                });
+
+                $(document).on('click', '.mobile-nav .drop-down > a', function (e) {
+                    e.preventDefault();
+                    $(this).next().slideToggle(300);
+                    $(this).parent().toggleClass('active');
+                });
+
+                $(document).click(function (e) {
+                    var container = $(".mobile-nav, .mobile-nav-toggle");
+                    if (!container.is(e.target) && container.has(e.target).length === 0) {
+                        if ($('body').hasClass('mobile-nav-active')) {
+                            $('body').removeClass('mobile-nav-active');
+                            $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
+                            $('.mobile-nav-overly').fadeOut();
+                        }
+                    }
+                });
+            } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
+                $(".mobile-nav, .mobile-nav-toggle").hide();
+            }
+
+            // Navigation active state on scroll
+            var nav_sections = $('section');
+            var main_nav = $('.nav-menu, #mobile-nav');
+
+            $(window).on('scroll', function () {
+                var cur_pos = $(this).scrollTop() + 200;
+
+                nav_sections.each(function () {
+                    var top = $(this).offset().top,
+                        bottom = top + $(this).outerHeight();
+
+                    if (cur_pos >= top && cur_pos <= bottom) {
+                        if (cur_pos <= bottom) {
+                            main_nav.find('li').removeClass('active');
+                        }
+                        main_nav.find('a[href="#' + $(this).attr('id') + '"]').parent('li').addClass('active');
+                    }
+                    if (cur_pos < 300) {
+                        $(".nav-menu ul:first li:first").addClass('active');
+                    }
+                });
+            });
+
+            // Toggle .header-scrolled class to #header when page is scrolled
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#header').addClass('header-scrolled');
+                } else {
+                    $('#header').removeClass('header-scrolled');
+                }
+            });
+
+            if ($(window).scrollTop() > 100) {
+                $('#header').addClass('header-scrolled');
+            }
+
+            // Back to top button
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('.back-to-top').fadeIn('slow');
+                } else {
+                    $('.back-to-top').fadeOut('slow');
+                }
+            });
+
+            $('.back-to-top').click(function () {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 1500, 'easeInOutExpo');
+                return false;
+            });
+
+            // Skills section
+            $('.skills-content').waypoint(function () {
+                $('.progress .progress-bar').each(function () {
+                    $(this).css("width", $(this).attr("aria-valuenow") + '%');
+                });
+            }, {
+                offset: '80%'
+            });
+
+            // Porfolio isotope and filter
+            $(window).on('load', function () {
+                var portfolioIsotope = $('.portfolio-container').isotope({
+                    itemSelector: '.portfolio-item'
+                });
+
+                $('#portfolio-flters li').on('click', function () {
+                    $("#portfolio-flters li").removeClass('filter-active');
+                    $(this).addClass('filter-active');
+
+                    portfolioIsotope.isotope({
+                        filter: $(this).data('filter')
+                    });
+                    aos_init();
+                });
+
+                // Initiate venobox (lightbox feature used in portofilo)
+                $(document).ready(function () {
+                    $('.venobox').venobox({
+                        'share': false
+                    });
+                });
+            });
+
+            // Portfolio details carousel
+            $(".portfolio-details-carousel").owlCarousel({
+                autoplay: true,
+                dots: true,
+                loop: true,
+                items: 1
+            });
+
+            // Init AOS
+            function aos_init() {
+                AOS.init({
+                    duration: 1000,
+                    once: true
+                });
+            }
+            $(window).on('load', function () {
+                aos_init();
+            });
+
+        })(jQuery);
+    </script>
 </body>
 
 </html>
